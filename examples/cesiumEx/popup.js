@@ -12,7 +12,7 @@ class Popup {
         this.html = option.html || null;
         this.id = 0;
         this.ctnList = {};
-    }
+    }     
     add(conf) {
         var _this = this;
         var geometry = conf.geometry; //弹窗挂载的位置
